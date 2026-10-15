@@ -1,11 +1,11 @@
-public class Car {
-    public void drive() {
-        System.out.println("My dream car is a BMW");
+public class Car { //Superclass
+    public void drive() { //Method from the superclass
+        System.out.println("The car drives!");
     }
 }
-//Subclass
-class SuperCar extends Car {
-    public void stereoSystem() {
-        System.out.println("The car has a loud system");
+//Subclass(Ford)
+class Ford extends Car { // subclass(Ford) extends the superclass(Car)
+    public void carModel() { //Method from the subclass
+        System.out.println("The car model is a Ford!");
     }
 }

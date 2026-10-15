@@ -1,13 +1,11 @@
 public class LivingThing {
-    public void grow() {
-        System.out.println("This is a live plant.");
+        public void eats() {
+            System.out.println("The living Thing eats!");
+        }
     }
-    
-}
-
-// Subclass inheriting from LivingThing 
-    class Plant extends LivingThing { 
-        public void photosynthesize() {
-            System.out.println("The uses photosynthesize to make food.");
+    // Subclass(Dog) inherits from superclass
+    class Dog extends Animal {
+        public void Offspring() {
+            System.out.println("The Dog has Offspring!");
         }
     }

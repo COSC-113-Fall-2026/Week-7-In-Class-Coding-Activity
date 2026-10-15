@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        // Call all the instances of the classes in here
-        System.out.println("---LivingThing & Plant ---");
-        Plant myPlant = new Plant();
-        myPlant.grow();
-        myPlant.photosynthesize(); 
+        Dog myDog = new Dog();
+        myDog.eats(); //Inherited from superclass(Animal)
+        myDog.offspring(); //Dog subclass
 
-        System.out.println();
-
-        //Car and SuperCar classes
-        System.out.println("---Car & SuperCar ---"); 
-        SuperCar mySuperCar = new SuperCar();
-        mySuperCar.drive(); //Inherited from Car
-        mySuperCar.steroSystem(); //SuperCar subclass
+        //Ford and SuperCar classes
+        Ford myFord = new Ford(); //Creating an object of the subclass(Ford)
+        myFord.drive(); //Inherited from superclass(Car)
+        myFord.carModel(); //Ford subclass
     }
 }
